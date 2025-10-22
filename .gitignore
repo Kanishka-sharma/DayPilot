@@ -1,0 +1,29 @@
+# Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Secrets and configs
+.env
+user_profile.json
+
+# Local databases and vector stores
+chroma_db/
+ui/chroma_db/
+*.sqlite3
+*.db
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
